@@ -1,0 +1,30 @@
+{
+  "name": "Beijing-HPV-NODE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev node index.js",
+    "start": "cross-env NODE_ENV=prod node index.js"
+  },
+  "dependencies": {
+    "async": "^3.2.3",
+    "axios": "^0.26.1",
+    "config": "^3.3.7",
+    "dayjs": "^1.11.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.4.4",
+    "module-alias": "^2.2.2",
+    "node-schedule": "^2.1.0",
+    "require-dir": "^1.2.0",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "_moduleAliases": {
+    "@root": "./",
+    "@lib": "./lib",
+    "@utils": "./utils"
+  }
+}
